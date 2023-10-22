@@ -1,0 +1,51 @@
+.planScreen_plan {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 0.8;
+}
+
+.planScreen_plan:hover{
+    opacity: 1;
+}
+
+.planScreen_plan > button {
+    padding: 10px 20px;
+    font-size: 0.9vw;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    width: 125px;
+}
+
+.planScreen_plan--disabled > button {
+    padding: 10px 20px;
+    font-size: 0.9vw;
+    background-color: white !important;
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+}
+
+.planScreen > p {
+    font-size: 1vw;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.planScreen_info > h5 {
+    color: rgb(204, 204, 204);
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.planScreen_info > h6 {
+    color: #fff;
+    font-size: 0.7vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.2;
+}
